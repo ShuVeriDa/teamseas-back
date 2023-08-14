@@ -1,4 +1,3 @@
-
 /*
  * -------------------------------------------------------
  * THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
@@ -15,7 +14,7 @@ export class CreateDonationInput {
     mobile?: Nullable<string>;
     team?: Nullable<string>;
     message?: Nullable<string>;
-    createAt?: Nullable<DateTime>;
+    createdAt?: Nullable<DateTime>;
 }
 
 export class Donation {
@@ -26,7 +25,7 @@ export class Donation {
     mobile?: Nullable<string>;
     team?: Nullable<string>;
     message?: Nullable<string>;
-    createAt?: Nullable<DateTime>;
+    createdAt?: Nullable<DateTime>;
 }
 
 export abstract class IQuery {
